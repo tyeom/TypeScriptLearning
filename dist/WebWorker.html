@@ -1,0 +1,14 @@
+﻿<div id="result"></div>
+<button id="btn">run</button>
+
+
+
+<script>
+	document.querySelector('#btn').addEventListener('click', function () {
+		var worker = new Worker('./WorkerScript.js');
+	});
+	
+	let div = document.createElement('div');
+	div.textContent = '메인 스레드 작업중..';
+	document.querySelector('#result').appendChild(div);
+</script>
