@@ -62,11 +62,8 @@ let poodle = new Poodle();
 ambleAround(zebra);
 ambleAround(poodle);  // Zebra객체가 아닌 Zebra클래스의 형태와 똑같은 Poodle객체를 인자로 넘겨도 오류가 나지 않는다.
 
-/*
- * 설명 02
- * 단, private이나 protected 필드를 갖는 클래스는 상황이 다르다.
- * 클래스에 private이나 protected 필드가 있고, 할당하려는 클래스나 서브클래스의 인스턴스가 아니라면 할당 할 수 없다.
- */
+
+
 class A {
     private x: Number = 1;
 }
