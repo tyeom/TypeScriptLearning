@@ -1,5 +1,7 @@
 TypeScript 학습 샘플 코드 입니다.
 
+정리 : http://arooong.synology.me:5008/List/List/Etc
+
 ## index.ts
 #### 01. 객체 리터럴 문법
 #### 02. 타입 별칭 정의
